@@ -4,6 +4,54 @@
   box-sizing: border-box;
   list-style: none;
 }
+.submit-button {
+  margin-top: 30px;
+  background-color: var(--color-secondary);
+  color: white;
+  padding: 12px 76px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px; /* Curved edges */
+  cursor: pointer;
+  transition: background-color 0.8s ease, width 9s ease; /* Smooth transition for hover effect */
+  font-family: italic monospace;
+}
+
+.submit-button:hover {
+  background-color: var(--color-secondary);
+  color: white; /* Darker green on hover */
+  width: 300px;
+  font-family: monospace;
+}
+
+.body {
+  font-family: Arial, sans-serif;
+  background-color: #12181b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.thank-you-container { 
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#okButton {
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 16px;
+  background-color: var(--color-secondary);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
 
 :root {
   --color-primary: #191d2b;
@@ -307,9 +355,9 @@ section {
   background-color: var(--color-secondary);
   transition: all 0.4s ease-in-out;
   width: 60%;
-}
+} 
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
-  width: 80%;
+  width: 88%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
   width: 95%;
@@ -325,6 +373,12 @@ section {
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
   width: 70%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .php {
+  width: 81%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .java {
+  width: 79%;
 }
 
 .stat-title {
